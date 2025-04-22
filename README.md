@@ -2,8 +2,8 @@
 Here’s a recap of the prerequisite commands to set up your MCP project:
 
 ```bash
-git clone https://github.com/intellygentle/mon-magma-mcp.git
-cd mon-magma-mcp
+https://github.com/intellygentle/monad-covFi-mcp.git
+cd monad-covFi-mcp
 ```
 
 
@@ -27,10 +27,6 @@ npm install dotenv
 ```bash
 npm run build
 ```
-run the script
-```bash
-node dist/monad-magma-Tools.js
-```
 
 # configure claude json file
 - copy the output of which node
@@ -45,7 +41,7 @@ which node  # it should look like this /home/yourUsername/.nvm/versions/node/v23
       "command": "wsl",
       "args": [
          "/home/yourUsername/.nvm/versions/node/v23.11.0/bin/node",
-        "/home/yourUsername/monadMpcTask/dist/monad-magma-Tools.js"
+        "/home/yourUsername/monad-covFi-mcp/dist/index.js"
       ]
     }
   ```
@@ -53,14 +49,12 @@ which node  # it should look like this /home/yourUsername/.nvm/versions/node/v23
 # Test with MCP Inspector
 be sure to edit "username" use your directory
 ```bash
-npx @modelcontextprotocol/inspector /home/username/.nvm/versions/node/v23.11.0/bin/node /home/username/monadMpcTask/dist/monad-magma-Tools.js
+npx @modelcontextprotocol/inspector /home/username/.nvm/versions/node/v23.11.0/bin/node /home/username/monad-covFi-mcp/dist/index.js
 ```
 
-# MCP Inspector will look like this
-<img width="953" alt="image" src="https://github.com/user-attachments/assets/7ee3f894-1a30-45c7-a5c3-17bfc9a49d57" />
+
 
 # Claude will look like this
-<img width="628" alt="Screenshot 2025-04-19 070802" src="https://github.com/user-attachments/assets/44ab9d8b-ae03-4c0d-9e7e-6a0bd386003b" />
-<img width="820" alt="stakemcp" src="https://github.com/user-attachments/assets/7cb080e7-f8c1-4103-8fdc-ece53763a8a5" />
+
 
 
