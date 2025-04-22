@@ -1572,7 +1572,7 @@ server.tool(
 
 server.tool(
     "rebalance-market-sentiment",
-    "Rebalance portfolio based on bullish or bearish WETH market sentiment, if bullish swap total balance of zToken to aToken and if bearish swap total balance of aToken to zToken",
+    "Rebalance portfolio based on bullish or bearish WETH market sentiment",
     {
         address: z.string().describe("Your Monad testnet address"),
         marketSentiment: z.enum(["Bullish", "Bearish"]).describe("Your WETH market sentiment"),
