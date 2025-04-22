@@ -9,7 +9,7 @@ import { privateKeyToAccount } from "viem/accounts";
 import dotenv from "dotenv";
 
 // Load environment variables from .env file
-const envPath = "/home/kida/monad-mpc-mission/.env";
+const envPath = "/home/username/monad-mpc-mission/.env";
 console.error(`[DEBUG] Loading .env file from: ${envPath}`);
 dotenv.config({ path: envPath });
 
