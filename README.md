@@ -2,7 +2,7 @@
 Here’s a recap of the prerequisite commands to set up your MCP project:
 
 ```bash
-https://github.com/intellygentle/monad-covFi-mcp.git
+git clone https://github.com/intellygentle/monad-covFi-mcp.git
 cd monad-covFi-mcp
 ```
 
