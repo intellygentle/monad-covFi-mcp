@@ -56,5 +56,6 @@ npx @modelcontextprotocol/inspector /home/username/.nvm/versions/node/v23.11.0/b
 
 # Claude will look like this
 
+<img width="691" alt="image" src="https://github.com/user-attachments/assets/eedc4237-ac8d-40f4-8495-55878d2423f9" />
 
 
